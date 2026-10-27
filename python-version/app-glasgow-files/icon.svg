@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Fondo circular -->
+  <circle cx="256" cy="256" r="240" fill="#3498db" />
+  <circle cx="256" cy="256" r="220" fill="#2980b9" />
+  
+  <!-- Borde blanco -->
+  <circle cx="256" cy="256" r="210" fill="#ecf0f1" />
+  
+  <!-- Cerebro estilizado -->
+  <path d="M256,110 
+           C180,110 150,170 150,230
+           C150,290 180,340 256,340
+           C332,340 362,290 362,230
+           C362,170 332,110 256,110 Z" 
+        fill="#95a5a6" />
+  
+  <!-- Surcos del cerebro -->
+  <path d="M200,160 Q256,140 310,160" stroke="#7f8c8d" stroke-width="8" fill="none" />
+  <path d="M180,200 Q256,170 330,200" stroke="#7f8c8d" stroke-width="8" fill="none" />
+  <path d="M170,240 Q256,210 340,240" stroke="#7f8c8d" stroke-width="8" fill="none" />
+  <path d="M180,280 Q256,250 330,280" stroke="#7f8c8d" stroke-width="8" fill="none" />
+  
+  <!-- Letras GCS -->
+  <g transform="translate(256, 380)" text-anchor="middle">
+    <text font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#2c3e50">GCS</text>
+  </g>
+  
+  <!-- Números representando escala -->
+  <g transform="translate(150, 390)">
+    <text font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e74c3c">3</text>
+  </g>
+  <g transform="translate(256, 430)">
+    <text font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#f39c12">9</text>
+  </g>
+  <g transform="translate(350, 390)">
+    <text font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2ecc71">15</text>
+  </g>
+</svg>

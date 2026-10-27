@@ -1,0 +1,11 @@
+# Dependencias para ejecutar la aplicación GCS Calculator localmente
+
+# Para la versión con interfaz gráfica (GUI)
+kivy>=2.2.0
+
+# Para la versión web (navegador)
+streamlit>=1.28.0
+
+# Nota: Para la versión de línea de comandos (glasgow_coma_scale.py) 
+# no se necesitan dependencias adicionales, solo Python 3.6+
+
